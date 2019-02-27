@@ -1,0 +1,53 @@
+命令稿啟動於 2019年02月27日 上午 10:51:06
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ whoami; pwd
+user
+/cygdrive/c/Users/user/AppData/Roaming/SPB_16.6
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ git config -l
+core.symlinks=false
+core.autocrlf=true
+core.fscache=true
+color.diff=auto
+color.status=auto
+color.branch=auto
+color.interactive=true
+help.format=html
+rebase.autosquash=true
+http.sslcainfo=D:/git/Git/mingw64/ssl/certs/ca-bundle.crt
+http.sslbackend=openssl
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+credential.helper=manager
+user.email=vicky87106@gmail.com
+user.name=vicky87106
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.ignorecase=true
+remote.origin.url=https://github.com/vicky87106/lab1.git
+remote.origin.fetch=+refs/heads/*:refs/remotes/origin/*
+remote.lab2.url=https://github.com/NCKUEECS2/Lab2-vicky87106.git
+remote.lab2.fetch=+refs/heads/*:refs/remotes/lab2/*
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ git config -l[C[C[2Pwhoami; pwd[C[Cpwd[Kwhoami[C[C[3Ppwd[1Pls./Homework1[C[Cvim Homework1.cpp[C[Cls[Kcd lab1[C[Cvim lab1.cpp[C[Cls[Kvim --version[C[Cgit[C[C[C[C[C[C[C[C[C[C[C[C[C++[C[C[C[C[C[C[C[C[C[C[C[C[Cit push 2018iGEM_NCKU-Tainan newbranch[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit clone  https://github.com/<your github account>/lab1.git [1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1P[1@p[1@h[1@h[1@u[1@a[1@n[1@g[1@g[1@g
+fatal: destination path 'lab1' already exists and is not an empty directory.
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ git clone  https://github.com/phhuanggg/lab1.git [C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kcat lab1.script
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ mv lab1.script lab1 
+]0;~
+[32muser@LAPTOP-CGRIFD4K [33m~[0m
+$ exit
+
+命令稿已於 2019年02月27日 上午 10:52:55
+ 完成
